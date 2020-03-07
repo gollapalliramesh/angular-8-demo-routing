@@ -1,0 +1,28 @@
+.container {
+    header {
+        height: 10%;
+        ul {
+            list-style-type: none;
+            li {
+                display: inline;
+                padding: 0 20px;
+                a {
+                    color: red;
+                    border: 1px solid blue;
+                    padding: 7px;
+                    border-radius: 10px;
+                    &.active {
+                        background-color: red;
+                        color: white;
+                    }
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        height: 90%;
+    }
+}

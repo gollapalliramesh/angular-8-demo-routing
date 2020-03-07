@@ -1,0 +1,28 @@
+<!-- <p>map works!</p> -->
+<div class="p-4">
+    <table class="table table-bordered">
+        <tr class="table-primary">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Cell</th>
+        </tr>
+        <tr class="table-warning" *ngFor="let EmployeeView123 of getEmployeeFinalData">
+            <td>{{EmployeeView123.name}}</td>
+            <td>{{EmployeeView123.age}}</td>
+            <td>{{EmployeeView123.email}}</td>
+            <td>{{EmployeeView123.gender}}</td>
+            <td>{{EmployeeView123.cell}}</td>
+        </tr>
+    </table>
+
+    <div [style.background-color]="'yellow'">hai</div>
+    <div [style.font-size.px]="'50'">hello</div>
+    <!-- multiple bunding -->
+    <p [style.color]="'red'" [style.background-color]="'black'" [style.font-size.px]="'50'">hai hello</p>
+    <button [style.color]="status=='error'? 'blue':'red'">hai</button>
+    <button [style.background-color]="getBackgroundColor()">submit</button>
+    <p [ngStyle]="{'color':'red','background-color':'yellow','border':'2px solid blue','width.px':'200'}">hai</p>
+    <p [ngClass]="['red','green']">hai</p>
+</div>

@@ -1,0 +1,17 @@
+<!-- <p>email works!</p> -->
+<div class="wrapper p-4">
+    <table class="table table-bordered">
+        <tr>
+            <td>S.NO</td>
+            <td>Name</td>
+            <td>Place</td>
+            <td>Service</td>
+        </tr>
+        <tr *ngFor="let finalDataUi of finalData">
+            <td>{{finalDataUi.SNo}}</td>
+            <td>{{finalDataUi.name}}</td>
+            <td>{{finalDataUi.Place}}</td>
+            <td>{{finalDataUi.Service}}</td>
+        </tr>
+    </table>
+</div>

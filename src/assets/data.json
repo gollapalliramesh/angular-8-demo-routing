@@ -1,0 +1,43 @@
+[{
+        "name": "ramesh",
+        "age": 23,
+        "email": "rameshgollapalli37@gmail.caom",
+        "gender": "male",
+        "cell": 7729888399
+    },
+    {
+        "name": "basha",
+        "age": 25,
+        "email": "basha24@gmail.caom",
+        "gender": "male",
+        "cell": 9958231524
+    },
+    {
+        "name": "sai",
+        "age": 25,
+        "email": "sai9494@gmail.caom",
+        "gender": "male",
+        "cell": 9896953212
+    },
+    {
+        "name": "Harish",
+        "age": 24,
+        "email": "harish@gmail.caom",
+        "gender": "male",
+        "cell": 9955663322
+    },
+    {
+        "name": "Rajesh",
+        "age": 23,
+        "email": "rajesh@gmail.caom",
+        "gender": "male",
+        "cell": 9494636321
+    },
+    {
+        "name": "Vishali",
+        "age": 25,
+        "email": "vaishali25@gmail.caom",
+        "gender": "Female",
+        "cell": 9789652532
+    }
+]
